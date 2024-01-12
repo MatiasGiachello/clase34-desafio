@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import bodyParser from 'body-parser';
-import usersController from '../controllers/usersController.js';
+import usersController from '../src/controllers/usersController.js';
 export const router = Router();
 router.use(bodyParser.urlencoded({ extended: true }));
 import passport from 'passport';

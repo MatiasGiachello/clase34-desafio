@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { authAdmin } from '../middlewares/authMiddle.js';
-import productsController from '../controllers/productsController.js'
+import productsController from '../src/controllers/productsController.js'
 import { body, validationResult } from 'express-validator';
 
 const router = Router()

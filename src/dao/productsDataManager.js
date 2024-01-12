@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { productModel } from '../models/product.model.js';
+import { productModel } from '../../models/product.model.js';
 import { Router } from 'express';
 import { ObjectId } from 'mongodb';
 import { config } from '../config/config.js'

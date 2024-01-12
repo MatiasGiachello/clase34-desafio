@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import mongoosePaginate from 'mongoose-paginate-v2';
-import { config } from '../config/config.js';
+import { config } from '../src/config/config.js';
 
 
 const productsCollection = config.PRODUCTS_COLLECTION

@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { lastModel, ticketsModel } from '../models/ticket.model.js';
+import { lastModel, ticketsModel } from '../../models/ticket.model.js';
 import { Router } from 'express';
 import { ObjectId } from 'mongodb';
 import { config } from '../config/config.js'

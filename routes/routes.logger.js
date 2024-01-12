@@ -1,6 +1,6 @@
 
 import express from 'express';
-import loggerController from '../controllers/loggerController.js';
+import loggerController from '../src/controllers/loggerController.js';
 
 const router = express.Router();
 

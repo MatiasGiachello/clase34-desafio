@@ -1,8 +1,8 @@
 import mongoose from 'mongoose';
-import { cartModel } from '../models/cart.model.js';
-import { userModel } from '../models/user.model.js';
+import { cartModel } from '../../models/cart.model.js';
+import { userModel } from '../../models/user.model.js';
 import { Router } from 'express';
-import { createHash } from '../util.js';
+import { createHash } from '../../util.js';
 import { config } from '../config/config.js'
 
 const router = Router()

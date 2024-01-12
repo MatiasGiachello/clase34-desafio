@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import { config } from '../config/config.js';
+import { config } from '../src/config/config.js';
 
 const usersCollection = config.USERS_COLLECTION
 
